@@ -15,8 +15,8 @@ from specklepy.objects.base import Base
 
 # TODO: Replace with your project, model, and version IDs
 PROJECT_ID = "128262a20c"
-MODEL_ID = "7f90b96ce8"
-VERSION_ID = "baa66bc69e"
+MODEL_ID = "9884593105"
+VERSION_ID = "08b571817c"
 
 
 def main():
@@ -32,9 +32,9 @@ def main():
     data = operations.receive(version.referenced_object, transport)
 
     # Add custom properties to the root object
-    data["custom_property"] = "Hello from specklepy!"
+    data["custom_property"] = "Team_02.3"
     data["analysis_date"] = "2026-01-18"
-    data["processed_by"] = "Tower Teachers Script"
+    data["processed_by"] = "Shuai Zhang"
 
     # Or add properties to child elements
     elements = getattr(data, "@elements", None) or getattr(data, "elements", [])

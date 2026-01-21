@@ -15,7 +15,7 @@ from specklepy.api import operations
 
 # TODO: Replace with your project and model IDs
 PROJECT_ID = "128262a20c"
-MODEL_ID = "7f90b96ce8"
+MODEL_ID = "9884593105"
 
 
 def main():

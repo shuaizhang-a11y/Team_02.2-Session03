@@ -17,14 +17,14 @@ from specklepy.objects.base import Base
 
 # TODO: Replace with your project and model IDs
 PROJECT_ID = "128262a20c"
-MODEL_ID = "7f90b96ce8"
+MODEL_ID = "9884593105"
 
 # TODO: Replace with the applicationId of an object to duplicate
-TARGET_APPLICATION_ID = "fca86a79-c078-4865-a8d9-d4990394e7a1"
+TARGET_APPLICATION_ID = "eb653d69-beeb-4fb6-a130-e95867cc2c36"
 
 # Offset for the duplicated object (move to the right = positive X)
 # Note: The model uses millimeters, so 50 meters = 50000 mm
-OFFSET_X = 50000.0
+OFFSET_X = 50
 
 
 def find_object_by_application_id(obj, target_id: str):
