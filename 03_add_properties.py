@@ -43,20 +43,21 @@ def main():
             element["element_index"] = i
             element["custom_tag"] = f"Element_{i:03d}"
 
-             # --- CHANGE DESIGNER NAMES ---
-    if "Designer" in element:
+      # ---------- TOP LEVEL ----------
+    if "Designer" in element.get_member_names():
         if element["Designer"] == "Aditya Kossambe":
             element["Designer"] = "Giovanni Carlo"
         elif element["Designer"] == "Marina Osmolovska":
             element["Designer"] = "Hala Lahlou"
 
-    # If Designer is nested under properties (very common)
-    props = element.get("properties", {})
-    if isinstance(props, dict) and "Designer" in props:
-        if props["Designer"] == "Aditya Kossambe":
-            props["Designer"] = "Giovanni Carlo"
-        elif props["Designer"] == "Marina Osmolovska":
-            props["Designer"] = "Hala Lahlou"
+    # ---------- NESTED properties ----------
+    if "properties" in element.get_member_names():
+        props = element["properties"]
+        if isinstance(props, dict) and "Designer" in props:
+            if props["Designer"] == "Aditya Kossambe":
+                props["Designer"] = "Giovanni Carlo"
+            elif props["Designer"] == "Marina Osmolovska":
+                props["Designer"] = "Hala Lahlou"
             
 
     print(f"✓ Added properties to {len(elements) if elements else 0} elements")
