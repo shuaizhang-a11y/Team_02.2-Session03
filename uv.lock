@@ -724,6 +724,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "dotenv" },
+    { name = "gql" },
     { name = "python-dotenv" },
     { name = "specklepy" },
 ]
@@ -731,6 +732,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "dotenv", specifier = ">=0.9.9" },
+    { name = "gql", specifier = ">=3.5.3" },
     { name = "python-dotenv", specifier = ">=1.0.0" },
     { name = "specklepy", specifier = ">=3.2.3" },
 ]
