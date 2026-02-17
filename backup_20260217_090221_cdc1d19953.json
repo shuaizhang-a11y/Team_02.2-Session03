@@ -1,0 +1,58 @@
+{
+  "projectId": "128262a20c",
+  "versionId": "cdc1d19953",
+  "objectId": "61f4b6a77d235d8078c21a3c0d6af0b6",
+  "message": "Adding Properties to Model",
+  "backupTimestamp": "20260217_090221",
+  "data": {
+    "id": "61f4b6a77d235d8078c21a3c0d6af0b6",
+    "name": "Grasshopper Model",
+    "version": 3,
+    "elements": [
+      {
+        "__closure": null,
+        "referencedId": "a8e7fa4d779eddfb764cfbcd1996de2c",
+        "speckle_type": "reference"
+      },
+      {
+        "__closure": null,
+        "referencedId": "ba9e29d115c91466030a6094cf98f41d",
+        "speckle_type": "reference"
+      }
+    ],
+    "__closure": {
+      "09f91d1fd7e3712f6026aaf973545813": 3,
+      "15c1917ce9554005330a1c1d20f3109e": 4,
+      "1af29d6aa341d410808599fe97c29d41": 6,
+      "28076f089426e345e00e2a7af53ee556": 6,
+      "33c64bc7a037d20598ddbfc26b8bba12": 2,
+      "4265362db8526810049e8e9094e41e7c": 3,
+      "485ee7d1b0e2d93a4d12980a0ba3206f": 3,
+      "4b8c6bd57abb3ff061191fae5e98bc44": 3,
+      "6e487ad9846b4827f91e1697556f0711": 4,
+      "75edd7b3b9c8d0b79aa0b46ab82312d1": 3,
+      "785afa3db79a100db101cf8e3d444182": 4,
+      "7f8b4620d464a9153c0dec3c198754f9": 2,
+      "8ecd75bf662fba5b09aa68b7fdb653c2": 2,
+      "8ed9630df9c9f41e437a85024fe38cf8": 2,
+      "952761e4b736d4bcee5db7b8ade3f598": 3,
+      "9d813464bf11967a68d02f618b17e240": 8,
+      "a8e7fa4d779eddfb764cfbcd1996de2c": 1,
+      "b19552c77866cb91354bca286c985cd4": 4,
+      "b294f664360caad5dbb9a6f66fca0ea9": 5,
+      "ba9e29d115c91466030a6094cf98f41d": 1,
+      "d3605931da48d2c0f04a0be483258eb9": 8,
+      "e8314369f0076c7e1467a082a9d94512": 2,
+      "fe08a4869d34783b85895081a2cf667f": 3
+    },
+    "properties": {
+      "Tower": "Team_02.3"
+    },
+    "colorProxies": [],
+    "speckle_type": "Speckle.Core.Models.Collections.Collection:Speckle.Core.Models.Collections.RootCollection",
+    "applicationId": "bcb4aedb-7258-4fc9-8522-251a0be08fd6",
+    "collectionType": null,
+    "renderMaterialProxies": [],
+    "instanceDefinitionProxies": []
+  }
+}
